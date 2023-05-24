@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="./css/Settings.css" />
+        <title>bootstrap</title>
+    </head>
+    <body>
+        <div class="wraper">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"
+                        ><svg
+                            class="text-light"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="26"
+                            height="26"
+                            fill="currentColor"
+                            class="bi bi-pc-display"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"
+                            /></svg
+                    ></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link text-white"
+                                    aria-current="page"
+                                    href="./index.html"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link text-info"
+                                    href="./Homework.html"
+                                    >Homework</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link text-info"
+                                    href="./Settings.html"
+                                    >Setting</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <div class="me-3">
+                                <img
+                                    src="icons_hw_module_12/av_64.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <main class="mx-5">
+                <h1 class="text-center border-bottom py-3 display-2">
+                    Settings
+                </h1>
+                <div class="d-grid">
+                    <ul class="row bg-info text-primary p-2 rounded-2">
+                        <li class="col-3 text-center">AVATAR</li>
+                        <li class="col-6 text-center">STUDENT'S INFO</li>
+                        <li class="col-3 text-center">CHANGE PASSWORD</li>
+                    </ul>
+                </div>
+                <div class="d-grid">
+                    <ul class="row">
+                        <li class="col-3 text-center">
+                            <img
+                                src="./icons_hw_module_12/av_256.png"
+                                alt="Avatar"
+                            />
+                            <button type="submit" class="btn btn-primary">
+                                Choose Phone
+                            </button>
+                        </li>
+                        <li class="col-6 text-center">
+                            <form>
+                                <ul>
+                                    <li>
+                                        <label
+                                            for="firstName"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="firstName"
+                                            placeholder="First name"
+                                        />
+                                    </li>
+                                    <li>
+                                        <label
+                                            for="lastName"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="lastName"
+                                            placeholder="Last name"
+                                        />
+                                    </li>
+                                    <li>
+                                        <label
+                                            for="email"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Email"
+                                        />
+                                    </li>
+                                    <li>
+                                        <label
+                                            for="phone"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="tel"
+                                            class="form-control"
+                                            id="phone"
+                                            placeholder="Phone number"
+                                        />
+                                    </li>
+                                    <li>
+                                        <label
+                                            for="address"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="address"
+                                            placeholder="Address"
+                                        />
+                                    </li>
+                                    <li class="mb-3">
+                                        <label
+                                            for="facebook"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="url"
+                                            class="form-control"
+                                            id="facebook"
+                                            placeholder="FB link"
+                                        />
+                                    </li>
+                                    <li>
+                                        <button
+                                            type="submit"
+                                            class="btn btn-primary w-100"
+                                        >
+                                            Save Changes
+                                        </button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </li>
+                        <li class="col-3 text-center">
+                            <form>
+                                <ul>
+                                    <li>
+                                        <label
+                                            for="oldPassword"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="password"
+                                            class="form-control"
+                                            id="oldPassword"
+                                            placeholder="Old password"
+                                        />
+                                    </li>
+                                    <li>
+                                        <label
+                                            for="newPassword"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="password"
+                                            class="form-control"
+                                            id="newPassword"
+                                            placeholder="New Password"
+                                        />
+                                    </li>
+                                    <li class="mb-3">
+                                        <label
+                                            for="confirmPassword"
+                                            class="form-label"
+                                        ></label>
+                                        <input
+                                            type="password"
+                                            class="form-control"
+                                            id="confirmPassword"
+                                            placeholder="Repeat password"
+                                        />
+                                    </li>
+                                    <li>
+                                        <button
+                                            type="submit"
+                                            class="btn btn-primary w-100"
+                                        >
+                                            Change password
+                                        </button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

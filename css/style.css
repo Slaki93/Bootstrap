@@ -1,0 +1,18 @@
+nav {
+    background-color: rgb(6, 44, 157);
+}
+svg {
+    color: aliceblue;
+}
+h1 {
+    color: rgb(153, 145, 145);
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+.col-5 {
+    width: 150px;
+}

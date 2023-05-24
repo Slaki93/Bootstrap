@@ -1,0 +1,13 @@
+li {
+    list-style: none;
+}
+nav {
+    background-color: rgb(6, 44, 157);
+}
+.circle {
+    border: 1px solid grey;
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
